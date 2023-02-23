@@ -1,0 +1,87 @@
+npn init -y 
+this will skip lot of option in  out app like naming or starting point
+
+
+2. ---
+
+npm install -D parcel 
+this is for developer not for the production
+ here -D or --save-dev means we are instlling parcel dev depency
+
+3. ----
+
+in dev depency ^ and  ~ you can see both of them
+^ means when new version release then our dev depency will also updated 
+~ approximately equvalent version
+withot means i dont want to updat my dev depency
+
+
+4. -----
+
+package-lock lock the version
+
+
+5. -----
+
+npm install react 
+npm install react-dom
+
+for installlig the react and react-dom
+AND i or install both are same thing 
+
+6. ----
+
+for ignite our app we do the following commmand
+npx parcel index.html
+
+
+npx means execute using npm
+
+7. -----
+
+now import react and react dom
+import React from "react"
+import ReactDOM from "react-dom"
+
+this worked previously but now we need change it 
+and make sure to modified your script tag in html 
+in script write type ="module"
+
+8. -----
+
+HMR --hot module redoler
+parcel will keep teack of your current file whatever you are updaing .. using HMR
+parcel use file watcher algorithms which is using c++ language 
+it minify our app
+clearning our code
+super fast build algorithms
+image optimazition
+it does cache while development
+it compatiable with older version of browser
+https on dev 
+we soud parcel.cache in our .gitignore
+any thing which is auto generated will be put inside in git ignore
+parcel use consistent hashing algorithms
+
+----transitive dependencies -----
+
+
+
+9.------
+
+for building our project we using npx parcel build index.html
+and make sure you cange your entry point of your app
+
+
+
+10. ------ 
+
+
+in package.json
+add browser list linke given blew
+"browsersliist":[
+    "last two version"
+]
+
+
+search for browser list in git hub you can 

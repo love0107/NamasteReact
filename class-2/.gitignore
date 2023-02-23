@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.class
+*.py[cod]
+TEST*.xml
+Thumbs.db
+*.app
+*.exe
+*.war
+.DS_Store
+.idea/
+.parcel-cache
